@@ -25,7 +25,7 @@ So, this is my first attempt with GTK themes, which currently only works on the 
 
 #### Installing themes in GNOME
 
-- 1 Download the theme from: [Material GTK Theme](https://www.pling.com/p/1681315/) and unzip the files.
+- 1 Download the theme from: [Material GTK Theme](https://www.pling.com/p/1706139/) and unzip the files.
 - Cut the unzipped files and paste it into any of the following paths:
   - '~/.local/share' Create the folder 'themes' and paste the themes folders inside.
   - '~/.themes' in the 'home' directory, Create the folder '.themes' and paste the theme folders inside.
