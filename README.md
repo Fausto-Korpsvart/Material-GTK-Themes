@@ -34,7 +34,7 @@ So, this is my first attempt with GTK themes, which currently only works on the 
 ---
 
 
-#### More themes of the 'Code Editors Colours for GTK Themes' serie
+#### More themes of the 'Code Editors Colours for GTK Themes' serie <br>
 **Catppuccin**
 - [**Catppuccin GTK Themes**](https://www.pling.com/p/1706139/) <br>
 - [**Catppuccin Shell Themes**](https://www.pling.com/p/1706218/) <br>
