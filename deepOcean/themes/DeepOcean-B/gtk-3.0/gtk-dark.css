@@ -383,17 +383,17 @@ filechooser stack.view scrolledwindow treeview.view:selected {
 }
 
 .gtkstyle-fallback {
-  background-color: #0f111a;
+  background-color: #1A1C25;
   color: #eeffff;
 }
 
 .gtkstyle-fallback:hover {
-  background-color: #1f1f1f;
+  background-color: #232637;
   color: #eeffff;
 }
 
 .gtkstyle-fallback:active {
-  background-color: #131313;
+  background-color: #090B10;
   color: #eeffff;
 }
 
@@ -13604,8 +13604,8 @@ headerbar .documents-entry-tag {
 headerbar.windowhandle
   viewswitcher
   button:not(.titlebutton):not(.suggested-action):not(.destructive-action) {
-  border-radius: 0 0 12px 12px;
-  margin: 0;
+	border-radius: 6px;
+	margin: 5px 2px;
   min-width: 120px;
   padding: 0;
   background-image: none;
@@ -13634,8 +13634,8 @@ headerbar.windowhandle
 headerbar.windowhandle
   viewswitcher
   button:not(.titlebutton):not(.suggested-action):not(.destructive-action):checked {
-  background-color: #e2e9e9;
-  color: rgba(0, 0, 0, 0.87);
+  background-color: #393a42;
+  color: #e2e9e9;
 }
 
 headerbar.windowhandle
@@ -13737,7 +13737,7 @@ window#gnome-system-monitor.background.csd
 filechooser stack.view scrolledwindow treeview.view {
   border-left-color: rgba(238, 255, 255, 0.3);
   border-top-color: rgba(238, 255, 255, 0.12);
-  padding: 3px;
+  min-height: 36px;
 }
 
 * {
@@ -14711,7 +14711,7 @@ scrollbar.overlay-indicator:not(.dragging):not(.hovering) button:disabled {
 }
 
 scrollbar.overlay-indicator:not(.dragging):not(.hovering).horizontal slider {
-  min-width: 16px;
+  min-width: 24px;
 }
 
 scrollbar.overlay-indicator:not(.dragging):not(.hovering).horizontal button {
@@ -14719,7 +14719,7 @@ scrollbar.overlay-indicator:not(.dragging):not(.hovering).horizontal button {
 }
 
 scrollbar.overlay-indicator:not(.dragging):not(.hovering).vertical slider {
-  min-height: 16px;
+  min-height: 24px;
 }
 
 scrollbar.overlay-indicator:not(.dragging):not(.hovering).vertical button {
@@ -14747,49 +14747,41 @@ scrollbar button {
 }
 
 scrollbar.vertical button.down {
-  -gtk-icon-source: transparent;
   background-color: transparent;
   color: transparent;
 }
 
 scrollbar.vertical button.down:hover {
-  -gtk-icon-source: transparent;
   background-color: transparent;
   color: transparent;
 }
 
 scrollbar.vertical button.up {
-  -gtk-icon-source: transparent;
   background-color: transparent;
   color: transparent;
 }
 
 scrollbar.vertical button.up:hover {
-  -gtk-icon-source: transparent;
   background-color: transparent;
   color: transparent;
 }
 
 scrollbar.horizontal button.down {
-  -gtk-icon-source: transparent;
   background-color: transparent;
   color: transparent;
 }
 
 scrollbar.horizontal button.down:hover {
-  -gtk-icon-source: transparent;
   background-color: transparent;
   color: transparent;
 }
 
 scrollbar.horizontal button.up {
-  -gtk-icon-source: transparent;
   background-color: transparent;
   color: transparent;
 }
 
 scrollbar.horizontal button.up:hover {
-  -gtk-icon-source: transparent;
   background-color: transparent;
   color: transparent;
 }
@@ -18486,6 +18478,7 @@ box.horizontal
   row.activatable,
 list.navigation-sidebar > row {
   border-radius: 6px;
+  margin: 1px 3px;
 }
 
 window.background.csd
@@ -18544,7 +18537,7 @@ box.horizontal
   list:not(.view):not(.tweak-group)
   row.activatable:selected,
 list.navigation-sidebar > row:selected {
-  background-color: #e2e9e9;
+  background-color: #393a42;
 }
 
 window.background.csd
@@ -18727,7 +18720,7 @@ box.horizontal
   row.activatable:selected
   label,
 list.navigation-sidebar > row:selected label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #e2e9e9;
 }
 
 .csd .tweak-categories {
