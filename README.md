@@ -7,7 +7,7 @@
 ---
 
 ## Small Description
-<ins>**Material Deep Ocean**</ins> is a GTK theme based on the colour palette of the [Material for Neovim](https://github.com/marko-cerovac/material.nvim) by [@marko-cerovac](https://github.com/marko-cerovac), the [Graphite GTK theme](https://github.com/vinceliuice/Graphite-gtk-theme) by [@VinceLiuice](https://github.com/vinceliuice) and the [Suru Plus](https://github.com/gusbemacbe/suru-plus) icons by [@gusbemacbe.](https://github.com/gusbemacbe)
+<ins>**Material**</ins> are a series of GTK themes based on the colour palette of the [Material for Neovim](https://github.com/marko-cerovac/material.nvim) by [@marko-cerovac](https://github.com/marko-cerovac), the [Graphite GTK theme](https://github.com/vinceliuice/Graphite-gtk-theme) by [@VinceLiuice](https://github.com/vinceliuice) and the [Suru Plus](https://github.com/gusbemacbe/suru-plus) icons by [@gusbemacbe.](https://github.com/gusbemacbe)
 
 The idea was born from the need for **GTK** themes that match the most prominent colour palettes of **Neovim** code editor and **Tiling Window Manager**, such as **Xmonad**, **Awesome**, **DWM**, etc, which use these colour schemes to give a uniform and unique look to working environments. See on **Reddit:** [r/unixporn](https://www.reddit.com/r/unixporn/).
 
