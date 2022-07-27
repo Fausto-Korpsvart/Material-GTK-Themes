@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Deep_Ocean
+Comment=An elegant GTK theme with the 'Material Deep Ocean' colour palette, based on '@Vinceliuice's Graphite' GTK theme.
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Deep_Ocean
+MetacityTheme=Deep_Ocean
+IconTheme=DeepOcean_Icons
+CursorTheme=Deep_Ocean
+ButtonLayout=close,minimize,maximize:menu
