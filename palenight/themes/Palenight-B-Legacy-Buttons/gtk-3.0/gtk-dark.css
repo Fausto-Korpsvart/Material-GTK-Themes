@@ -13541,9 +13541,13 @@ box.vertical headerbar {
   background-color: #292d3e;
 }
 
+.nautilus-window headerbar > box.horizontal.left {
+  padding-right: 40px;
+}
+
 headerbar > box.left,
 headerbar > box.right {
-  padding: 0 3px;
+  padding: 0 2px;
 }
 
 headerbar entry,
@@ -17024,7 +17028,7 @@ button.titlebutton:not(.suggested-action):not(.destructive-action) {
   min-height: 24px;
   min-width: 24px;
   padding: 0;
-  margin: 0 3px;
+  margin: 0 2px;
 }
 
 button.titlebutton:not(.suggested-action):not(.destructive-action).close:hover {
@@ -22837,7 +22841,7 @@ calendar.raven-calendar:selected {
  ***************/
 .xfce4-panel.background {
   border: none;
-  background-color: #364367;
+  background-color: #292d3e;
   color: rgba(238, 255, 255, 0.7);
   font-weight: 500;
 }

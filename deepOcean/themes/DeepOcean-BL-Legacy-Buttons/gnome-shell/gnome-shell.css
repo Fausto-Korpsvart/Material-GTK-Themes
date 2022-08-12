@@ -2536,25 +2536,21 @@ StEntry StLabel.hint-text,
 
 /* Popovers/Menus */
 .popup-menu-boxpointer {
-  -arrow-border-radius: 9px;
+  -arrow-border-radius: 2px;
   -arrow-background-color: transparent;
   -arrow-border-width: 0;
   -arrow-border-color: transparent;
-  -arrow-base: 12px;
-  -arrow-rise: 6px;
+  -arrow-base: 64px;
+  -arrow-rise: 0;
   -arrow-box-shadow: none;
   background: transparent;
-  box-shadow: none;
 }
 
 .popup-menu {
   min-width: 12em;
-  color: rgba(238, 255, 255, 0.7) !important;
+  color: rgba(238, 255, 255, 0.7);
   padding: 0 !important;
   font-weight: normal;
-  border-radius: 12px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
-  margin: 0 3px;
   font-size: 10pt;
 }
 
@@ -2562,44 +2558,45 @@ StEntry StLabel.hint-text,
   padding: 6px 0 !important;
   background-color: #1f2233;
   border-radius: 12px;
-  margin: 0;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+  margin: 4px 10px 12px;
   font-weight: normal;
-  border: 1px solid rgba(0, 0, 0, 0.75);
-  box-shadow: inset 0 0 0 1px rgba(238, 255, 255, 0.1);
+  border: 2px solid #e2e9e9;
 }
 
 .popup-menu .popup-menu-item {
-  spacing: 6px;
-  color: rgba(238, 255, 255, 0.7) !important;
+  spacing: 9px;
+  padding: 6px;
+  color: rgba(238, 255, 255, 0.7);
   text-shadow: none;
   border-radius: 6px;
   margin: 0 6px;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 .popup-menu .popup-menu-item:checked {
-  font-weight: normal;
+  font-weight: 500;
   border: none;
   box-shadow: none;
-  color: #eeffff !important;
-  background-color: rgba(238, 255, 255, 0.12) !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  background-color: #e2e9e9 !important;
   border-radius: 6px 6px 0 0;
 }
 
 .popup-menu .popup-menu-item:checked:focus,
 .popup-menu .popup-menu-item:checked:hover,
 .popup-menu .popup-menu-item:checked.selected {
-  color: #eeffff !important;
-  background-color: rgba(238, 255, 255, 0.3) !important;
+  color: rgba(0, 0, 0, 1) !important;
+  background-color: #c7cece !important;
 }
 
 .popup-menu .popup-menu-item:checked:active {
-  color: #eeffff !important;
-  background-color: rgba(238, 255, 255, 0.3) !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  background-color: lightgray !important;
 }
 
 .popup-menu .popup-menu-item:checked:insensitive {
-  color: rgba(238, 255, 255, 0.3) !important;
+  color: rgba(0, 0, 0, 0.38) !important;
 }
 
 .popup-menu .popup-menu-item:focus,
@@ -2612,8 +2609,8 @@ StEntry StLabel.hint-text,
 
 .popup-menu .popup-menu-item:active,
 .popup-menu .popup-menu-item.selected:active {
-  color: #eeffff !important;
-  background-color: rgba(238, 255, 255, 0.3) !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  background-color: #e2e9e9 !important;
 }
 
 .popup-menu .popup-menu-item:insensitive {
@@ -2621,33 +2618,42 @@ StEntry StLabel.hint-text,
 }
 
 .popup-menu .popup-sub-menu {
-  background-color: rgba(238, 255, 255, 0.12) !important;
-  color: rgba(238, 255, 255, 0.7) !important;
   border: none;
   box-shadow: none;
   margin: 0 6px;
   border-radius: 0 0 6px 6px;
+  background-color: #e2e9e9 !important;
+  color: rgba(0, 0, 0, 0.6) !important;
 }
 
 .popup-menu .popup-sub-menu .popup-menu-item {
+  border-radius: 0;
   margin: 0;
+  color: rgba(0, 0, 0, 0.6) !important;
 }
 
 .popup-menu .popup-sub-menu .popup-menu-item:focus,
-.popup-menu .popup-sub-menu .popup-menu-item:hover,
+.popup-menu .popup-sub-menu .popup-menu-item.hover,
 .popup-menu .popup-sub-menu .popup-menu-item.selected {
-  color: #eeffff !important;
-  background-color: rgba(238, 255, 255, 0.12) !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  background-color: rgba(0, 0, 0, 0.12) !important;
 }
 
 .popup-menu .popup-sub-menu .popup-menu-item:active,
 .popup-menu .popup-sub-menu .popup-menu-item.selected:active {
-  color: #eeffff !important;
-  background-color: rgba(238, 255, 255, 0.3) !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  background-color: rgba(0, 0, 0, 0.26) !important;
 }
 
 .popup-menu .popup-sub-menu .popup-menu-item:insensitive {
-  color: rgba(238, 255, 255, 0.3) !important;
+  color: rgba(0, 0, 0, 0.26) !important;
+}
+
+.popup-menu
+  .popup-sub-menu
+  .popup-menu-section:last-child
+  .popup-menu-item:last-child {
+  border-radius: 0 0 6px 6px;
 }
 
 .popup-menu .popup-inactive-menu-item {
@@ -2686,7 +2692,7 @@ StEntry StLabel.hint-text,
 }
 
 .aggregate-menu {
-  min-width: 20em;
+  min-width: 21em;
 }
 
 .aggregate-menu .popup-menu-icon {
