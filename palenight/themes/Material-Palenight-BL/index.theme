@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Palenight_Borderless
-Comment=An elegant GTK theme with the 'Material Palenight' colour palette, and based on '@Vinceliuice's Graphite' GTK theme.
+Name=Material-Palenight
+Comment=An Flat Gtk+ theme based on Elegant Design
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Palenight_Borderless
-MetacityTheme=Palenight_Borderless
-IconTheme=Palenight_Icons
-CursorTheme=Palenight
+GtkTheme=Material-Palenight
+MetacityTheme=Material-Palenight
+IconTheme=Material-Palenight
+CursorTheme=Material-Palenight
 ButtonLayout=close,minimize,maximize:menu
