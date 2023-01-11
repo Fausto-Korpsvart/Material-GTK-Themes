@@ -5815,6 +5815,11 @@ infobar.error:hover > revealer > box {
 /************
  * Tooltips *
  ************/
+tooltip * {
+  background-color: transparent;
+  color: #eeffff;
+}
+
 tooltip {
   border-radius: 3px;
   box-shadow: none;
