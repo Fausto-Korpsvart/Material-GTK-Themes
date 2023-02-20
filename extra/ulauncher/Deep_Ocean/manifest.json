@@ -1,0 +1,12 @@
+{
+  "manifest_version": "1",
+  "name": "Deep_Ocean",
+  "display_name": "Deep_Ocean",
+  "extend_theme": "light",
+  "css_file": "theme.css",
+  "css_file_gtk_3.20+": "theme-gtk-3.20.css",
+  "matched_text_hl_colors": {
+    "when_selected": "#F07178",
+    "when_not_selected": "#F78C6C"
+  }
+}

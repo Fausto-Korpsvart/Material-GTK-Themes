@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Material-Palenight
+Comment=An Flat Gtk+ theme based on Elegant Design
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Material-Palenight
+MetacityTheme=Material-Palenight
+IconTheme=Material-Palenight
+CursorTheme=Material-Palenight
+ButtonLayout=close,minimize,maximize:menu
