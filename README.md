@@ -13,7 +13,7 @@
 > With support also for the desktop environments Cinnamon and XFCE.<br />
 > You can check **Reddit:** [r/unixporn](https://www.reddit.com/r/unixporn/) to get some ideas.
 
-![Material](https://raw.githubusercontent.com/Fausto-Korpsvart/Material-GTK-Themes/master/deepOcean/screenshots/Material-GTK.png)
+![Material](https://raw.githubusercontent.com/Fausto-Korpsvart/Material-GTK-Themes/master/extra/screenshots/Material-GTK.png)
 
 ## Installing Themes
 
