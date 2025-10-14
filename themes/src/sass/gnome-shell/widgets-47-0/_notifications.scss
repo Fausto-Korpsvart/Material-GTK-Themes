@@ -7,24 +7,28 @@ $notification_banner_width: 34em;
 .notification-banner {
 	min-height: $notification_banner_height;
 	width: $notification_banner_width;
+	padding: 0;
 	margin: 12px 8px 8px;
-	border-radius: $base_radius;
 	color: $text-secondary;
-	background-color: $popover;
+	background-color: $menu;
 	text-shadow: none;
-	border-radius: $menu_radius;
+	border-radius: $modal_radius;
 	border: none;
-	box-shadow: 0 3px 6px rgba(black, 0.25);
 
-	@if $float == 'true' {
+	@if $float == 'false' {
+		border: 1px solid $window-border;
+		box-shadow: inset 0 0 0 1px highlight($popover);
+	} @else {
 		border: 2px solid $primary;
 	}
 
 	&:hover,
 	&:active,
 	&:focus {
-		color: $text;
-		background-color: $popover;
+		color: $primary;
+		background-color: lighten($menu, 5%);
+		border: 1px solid $window-border;
+		box-shadow: inset 0 0 0 1px highlight($popover);
 	}
 }
 
@@ -33,8 +37,8 @@ $notification_banner_width: 34em;
 }
 
 .notification-button {
-	min-height: $item_size + $base_padding * 2;
-	padding: 0 $base_padding * 3;
+	min-height: $base_padding;
+	padding: $base_padding * 2 0;
 	margin: 0;
 	background-color: transparent;
 	color: $text-secondary;
